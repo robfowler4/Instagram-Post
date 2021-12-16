@@ -1,0 +1,106 @@
+
+
+div.container {
+    margin: auto;
+    width: 400px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+div.post {
+    background: white;
+    margin-top:10px;}
+
+div.post h2, div.post p {
+    padding:10px;
+    margin:0;
+}
+
+div.post-header .first-logo div:first-child{
+font-size: 21px;
+padding: 5px;
+}
+
+div.post-header .first-logo div:nth-child(2) {
+    padding: 5px;
+}
+
+div.post-header .first-logo p {
+    
+    font-size: 11px;
+
+
+}
+
+div.post .post-header div:last-child{
+    
+font-size: 20px;
+
+}
+
+div.post-header div.first-logo {
+    display: flex;
+}
+div.post div.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+div.post-header p {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+div.post img {
+    width: 100%;
+
+}
+
+body {
+background: black;
+}
+
+
+div.footer p {
+    font-size: small;
+padding-left: 20px;
+}
+ 
+
+
+div.footer .icons {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+
+    div.icons div.icons2 {
+        display: flex;
+        padding: 10px;
+    }
+    
+
+
+div.icons .icons2 div:first-child {
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+div.icons .icons2 div:nth-child(2) {
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+div.icons .icons2 div:nth-child(3) {
+    font-size: 25px;
+    
+}
+
+div.footer .icons div:last-child {
+    font-size: 25px;
+    padding-right: 10px;}
+
